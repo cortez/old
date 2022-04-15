@@ -6,8 +6,13 @@
 }
 
 @font-face {
-	font-family: "inter";
-	src: url("/fonts/inter/");
+	font-family: "inter-regular";
+	src: url("/fonts/inter/Inter-Regular.otf");
+}
+
+@font-face {
+	font-family: "inter-medium";
+	src: url("/fonts/inter/Inter-Medium.otf");
 }
 
 @font-face {
@@ -23,7 +28,7 @@
 h2,
 h3,
 p {
-	font-family: 'inter';
+	font-family: 'inter-regular';
 }
 
 .arrow {
@@ -89,6 +94,7 @@ a[data-tool-tip]::after {
 	color: var(--font-color);
 	font-size: 16px;
 	font-weight: 500;
+	font-family: 'inter-medium';
 	white-space: nowrap;
 	border-radius: 6px;
 	bottom: 0;
