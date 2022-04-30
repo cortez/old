@@ -334,10 +334,6 @@ canvas {
 	clear: both;
 }
 
-.wip:hover {
-	cursor: not-allowed;
-}
-
 :root {
 	--font-color: #000000;
 	--bg-color: #F4F5F5;
