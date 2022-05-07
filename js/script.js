@@ -26,6 +26,17 @@ if (!isMobile()) {
 // popup functions
 
 jQuery(document).ready(function () {
+
+jQuery('.zero-popup').click(function (e) {
+      e.preventDefault();
+      var activePopup = jQuery('.zero-popup-box').fadeIn(250);
+      var activePopup = jQuery('.zero-popup-content').addClass('zero-popup-active');
+    });
+    jQuery('.zero-popup-close, .zero-popup-background').click(function () {
+      var inactivePopup = jQuery('.zero-popup-box').fadeOut(250);
+      var inactivePopup = jQuery('.zero-popup-content').removeClass('zero-popup-active');
+    });
+
     jQuery('.covid-popup').click(function (e) {
       e.preventDefault();
       var activePopup = jQuery('.covid-popup-box').fadeIn(250);
@@ -61,10 +72,10 @@ jQuery(document).ready(function () {
 
 // hover image variables
   var hoverDistort = new hoverEffect({
-    parent: document.querySelector('.comingsoon'),
+    parent: document.querySelector('.zero'),
     intensity: 0.5,
-    image1: 'img/comingsoon1.png',
-    image2: 'img/comingsoon2.png',
+    image1: 'img/00000.png',
+    image2: 'img/arrow.png',
     displacementImage: 'js/9.jpg'
 });
 
