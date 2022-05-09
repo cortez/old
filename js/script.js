@@ -72,9 +72,9 @@ jQuery('.zero-popup').click(function (e) {
 
 // hover image variables
   var hoverDistort = new hoverEffect({
-    parent: document.querySelector('.zero'),
+    parent: document.querySelector('.note'),
     intensity: 0.5,
-    image1: 'img/00000.png',
+    image1: 'img/note.png',
     image2: 'img/arrow.png',
     displacementImage: 'js/9.jpg'
 });
