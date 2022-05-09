@@ -27,14 +27,14 @@ if (!isMobile()) {
 
 jQuery(document).ready(function () {
 
-jQuery('.zero-popup').click(function (e) {
+jQuery('.note-popup').click(function (e) {
       e.preventDefault();
-      var activePopup = jQuery('.zero-popup-box').fadeIn(250);
-      var activePopup = jQuery('.zero-popup-content').addClass('zero-popup-active');
+      var activePopup = jQuery('.note-popup-box').fadeIn(250);
+      var activePopup = jQuery('.note-popup-content').addClass('note-popup-active');
     });
-    jQuery('.zero-popup-close, .zero-popup-background').click(function () {
-      var inactivePopup = jQuery('.zero-popup-box').fadeOut(250);
-      var inactivePopup = jQuery('.zero-popup-content').removeClass('zero-popup-active');
+    jQuery('.note-popup-close, .note-popup-background').click(function () {
+      var inactivePopup = jQuery('.note-popup-box').fadeOut(250);
+      var inactivePopup = jQuery('.note-popup-content').removeClass('zero-popup-active');
     });
 
     jQuery('.covid-popup').click(function (e) {
