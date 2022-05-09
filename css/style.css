@@ -120,7 +120,7 @@ a[data-tool-tip]:hover::after {
 	pointer-events: none;
   }
 
-.zero-popup-box, .covid-popup-box, .worldplaces-popup-box, .unlikely-popup-box {
+.note-popup-box, .covid-popup-box, .worldplaces-popup-box, .unlikely-popup-box {
 	position: fixed;
 	width: 100%;
 	height: 100%;
@@ -130,7 +130,7 @@ a[data-tool-tip]:hover::after {
 	display: none;
 }
 
-.zero-popup-background, .covid-popup-background, .worldplaces-popup-background, .unlikely-popup-background {
+.note-popup-background, .covid-popup-background, .worldplaces-popup-background, .unlikely-popup-background {
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -139,7 +139,7 @@ a[data-tool-tip]:hover::after {
 	background: rgba(0, 0, 0, 0.5);
 }
 
-.zero-popup-content, .covid-popup-content, .worldplaces-popup-content, .unlikely-popup-content {
+.note-popup-content, .covid-popup-content, .worldplaces-popup-content, .unlikely-popup-content {
 	position: absolute;
 	left: 25%;
 	width: 50%;
@@ -151,23 +151,23 @@ a[data-tool-tip]:hover::after {
 	border-radius: 20px;
 }
 
-.zero-popup-active, .covid-popup-active, .worldplaces-popup-active, .unlikely-popup-active {
+.note-popup-active, .covid-popup-active, .worldplaces-popup-active, .unlikely-popup-active {
 	top: 50%;
 }
 
-.zero-popup-text, .covid-popup-text, .worldplaces-popup-text, .unlikely-popup-text {
+.note-popup-text, .covid-popup-text, .worldplaces-popup-text, .unlikely-popup-text {
 	width: 50%;
 	display: inline-block;
 	padding: 20px;
 }
 
-.zero-popup-text h2, .covid-popup-text h2, .worldplaces-popup-text h2, .unlikely-popup-text h2 {
+.note-popup-text h2, .covid-popup-text h2, .worldplaces-popup-text h2, .unlikely-popup-text h2 {
 	font-size: 1.5em;
 	padding-top: 0px;
 	padding-bottom: 20px;
 }
 
-.zero-popup-close, .covid-popup-close, .worldplaces-popup-close,.unlikely-popup-close {
+.note-popup-close, .covid-popup-close, .worldplaces-popup-close,.unlikely-popup-close {
 	position: absolute;
 	right: 20px;
 	top: 20px;
@@ -178,21 +178,21 @@ a[data-tool-tip]:hover::after {
 	cursor: pointer;
 }
 
-.zero-popup-close .zero-popup-line, .covid-popup-close .covid-popup-line, .worldplaces-popup-close .worldplaces-popup-line, .unlikely-popup-close .unlikely-popup-line {
+.note-popup-close .note-popup-line, .covid-popup-close .covid-popup-line, .worldplaces-popup-close .worldplaces-popup-line, .unlikely-popup-close .unlikely-popup-line {
 	width: 100%;
 	height: 2px;
 	background: black;
 	position: relative;
 }
 
-.zero-popup-close .zero-popup-line:first-child, .covid-popup-close .covid-popup-line:first-child, .worldplaces-popup-close .worldplaces-popup-line:first-child, .unlikely-popup-close .unlikely-popup-line:first-child {
+.note-popup-close .note-popup-line:first-child, .covid-popup-close .covid-popup-line:first-child, .worldplaces-popup-close .worldplaces-popup-line:first-child, .unlikely-popup-close .unlikely-popup-line:first-child {
 	margin-bottom: 0;
 	transform: rotate(45deg);
 	transform-origin: center;
 	top: 7px;
 }
 
-.zero-popup-close .zero-popup-line:last-child, .covid-popup-close .covid-popup-line:last-child, .worldplaces-popup-close .worldplaces-popup-line:last-child, .unlikely-popup-close .unlikely-popup-line:last-child {
+.note-popup-close .note-popup-line:last-child, .covid-popup-close .covid-popup-line:last-child, .worldplaces-popup-close .worldplaces-popup-line:last-child, .unlikely-popup-close .unlikely-popup-line:last-child {
 	margin-bottom: 0;
 	transform: rotate(-45deg);
 	transform-origin: center;
