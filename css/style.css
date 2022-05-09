@@ -515,13 +515,13 @@ a {
 		-moz-animation-duration: 0.5s;
 		animation-duration: 0.5s;
 	}
-	.zero-popup-content, .covid-popup-content, .worldplaces-popup-content, .unlikely-popup-content {
+	.note-popup-content, .covid-popup-content, .worldplaces-popup-content, .unlikely-popup-content {
 		left: 5%;
 		width: 90%;
 		top: 50%;
 	}
 	
-	.zero-popup-text, .covid-popup-text, .worldplaces-popup-text, .unlikely-popup-text {
+	.note-popup-text, .covid-popup-text, .worldplaces-popup-text, .unlikely-popup-text {
 		width: 90%;
 	}
 }
@@ -537,13 +537,13 @@ a {
 		padding-bottom: 2%;
 	}
 
-	.zero-popup-content, .covid-popup-content, .worldplaces-popup-content, .unlikely-popup-content {
+	.note-popup-content, .covid-popup-content, .worldplaces-popup-content, .unlikely-popup-content {
 		left: 25%;
 		width: 50%;
 		top: 50%;
 	}
 	
-	.zero-popup-text, .covid-popup-text, .worldplaces-popup-text, .unlikely-popup-text {
+	.note-popup-text, .covid-popup-text, .worldplaces-popup-text, .unlikely-popup-text {
 		width: 90%;
 	}
 }
@@ -556,13 +556,13 @@ a {
 		padding-bottom: 8%;
 	}
 
-	.zero-popup-content, .covid-popup-content, .worldplaces-popup-content, .unlikely-popup-content {
+	.note-popup-content, .covid-popup-content, .worldplaces-popup-content, .unlikely-popup-content {
 		left: 25%;
 		width: 50%;
 		top: 50%;
 	}
 	
-	.zero-popup-text, .covid-popup-text, .worldplaces-popup-text, .unlikely-popup-text {
+	.note-popup-text, .covid-popup-text, .worldplaces-popup-text, .unlikely-popup-text {
 		width: 90%;
 	}
 
